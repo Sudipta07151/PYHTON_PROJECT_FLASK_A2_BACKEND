@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+{% block content %}
+{%for book in books%}
+<ul>
+  {{book.title}}
+  <li>By: {{book.author}}</li>
+  <li>Pages: {{book.pages}}</li>
+</ul>
+{% endfor %}
+{% endblock content %}
