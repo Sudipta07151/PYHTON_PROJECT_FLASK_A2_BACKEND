@@ -2,3 +2,4 @@ pip install flask_cors
 pip install flask
 pip install flask-wtf
 
+python app.py
